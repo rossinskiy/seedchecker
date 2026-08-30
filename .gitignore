@@ -1,0 +1,13 @@
+.env
+.env.*
+node_modules/
+dist/
+release/
+build/
+.gradle/
+__pycache__/
+*.pyc
+*.log
+.idea/
+.vscode/
+*.class

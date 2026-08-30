@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "biomecheck",
+  "version": "${version}",
+  "name": "BiomeCheck",
+  "description": "Сканирует биомы вокруг 0,100,0 на анархиях и группирует подсервера по генерации мира.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.biomecheck.BiomeCheckMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.8",
+    "java": ">=21"
+  }
+}
